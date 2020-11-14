@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6432" started-at="2020-11-11T17:22:17 WAT" finished-at="2020-11-11T17:22:23 WAT">
+  <suite name="Default suite" duration-ms="3684" started-at="2020-11-11T20:33:29 WAT" finished-at="2020-11-11T20:33:32 WAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6432" started-at="2020-11-11T17:22:17 WAT" finished-at="2020-11-11T17:22:23 WAT">
+    <test name="Default test" duration-ms="3684" started-at="2020-11-11T20:33:29 WAT" finished-at="2020-11-11T20:33:32 WAT">
       <class name="googleTest.LoginToGoogle">
-        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:googleTest.LoginToGoogle@48503868]" name="initializeWebDriver" is-config="true" duration-ms="4587" started-at="2020-11-11T17:22:12 WAT" finished-at="2020-11-11T17:22:17 WAT">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:googleTest.LoginToGoogle@48503868]" name="initializeWebDriver" is-config="true" duration-ms="6523" started-at="2020-11-11T20:33:22 WAT" finished-at="2020-11-11T20:33:29 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeWebDriver -->
-        <test-method status="FAIL" signature="loginwithValidCreds()[pri:0, instance:googleTest.LoginToGoogle@48503868]" name="loginwithValidCreds" duration-ms="6377" started-at="2020-11-11T17:22:17 WAT" finished-at="2020-11-11T17:22:23 WAT">
+        <test-method status="FAIL" signature="loginwithValidCreds()[pri:0, instance:googleTest.LoginToGoogle@48503868]" name="loginwithValidCreds" duration-ms="3625" started-at="2020-11-11T20:33:29 WAT" finished-at="2020-11-11T20:33:32 WAT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -51,7 +51,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithValidCreds -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:googleTest.LoginToGoogle@48503868]" name="quitDriver" is-config="true" duration-ms="220" started-at="2020-11-11T17:22:23 WAT" finished-at="2020-11-11T17:22:23 WAT">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:googleTest.LoginToGoogle@48503868]" name="quitDriver" is-config="true" duration-ms="176" started-at="2020-11-11T20:33:33 WAT" finished-at="2020-11-11T20:33:33 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
